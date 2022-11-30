@@ -1,4 +1,4 @@
-package com.charlesinto.sfpetclinic;
+package com.charlesinto.springframework.sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

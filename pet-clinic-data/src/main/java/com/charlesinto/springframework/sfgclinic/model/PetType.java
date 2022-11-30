@@ -1,4 +1,4 @@
-package com.charlesinto.sfpetclinic.model;
+package com.charlesinto.springframework.sfgclinic.model;
 
 public class PetType {
     private String name;

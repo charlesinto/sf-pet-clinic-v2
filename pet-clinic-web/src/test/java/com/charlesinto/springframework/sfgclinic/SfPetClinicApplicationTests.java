@@ -1,4 +1,4 @@
-package com.charlesinto.sfpetclinic;
+package com.charlesinto.springframework.sfgclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
