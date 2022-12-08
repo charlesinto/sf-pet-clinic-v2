@@ -1,6 +1,7 @@
 package com.charlesinto.springframework.sfgclinic.bootstrap;
 
 import com.charlesinto.springframework.sfgclinic.model.Owner;
+import com.charlesinto.springframework.sfgclinic.model.Vet;
 import com.charlesinto.springframework.sfgclinic.services.OwnerService;
 import com.charlesinto.springframework.sfgclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
@@ -28,7 +29,21 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
         ownerService.save(owner1);
-        System.out.println("Called to setup objects....");
+
+        System.out.println("Creating Owners....");
+
+        Vet vet1 = new Vet();
+        vet1.setFirstName("Jimmy");
+        vet1.setLastName("Carter");
+
+        Vet vet2 = new Vet();
+        vet2.setFirstName("Laurel");
+        vet2.setLastName("Edwards");
+
+        vetService.save(vet1);
+        vetService.save(vet2);
+        System.out.println("Creating Vets....");
+
 
     }
 
