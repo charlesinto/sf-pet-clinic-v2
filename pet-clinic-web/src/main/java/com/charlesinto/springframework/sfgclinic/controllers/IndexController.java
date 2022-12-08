@@ -1,4 +1,4 @@
-package com.charlesinto.springframework.sfgpetclinic.controllers;
+package com.charlesinto.springframework.sfgclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
